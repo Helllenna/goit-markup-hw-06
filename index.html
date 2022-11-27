@@ -383,9 +383,7 @@
                         <h3 class="footer-form-title">Підпишіться на розсилку</h3>
                         <div class="footer-form">
                             <label class="footer-label">
-                                <input type="email" name="email" placeholder="E-mail" class="footer-input"/>
-                                <p class="footer-form-text">
-                                </p>
+                                <input type="email" name="email"  class="footer-input" placeholder="E-mail"/>
                             </label>
                             <button class="footer-form-btn" type="submit">
                             <p class="">Підписатися</p>
@@ -395,17 +393,31 @@
                             </button>
                         </div>
                     </div>
+                </form>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="vector" width="11" height="11">
-                    <use href="./images/icons.svg#icon-vector">
-
-                    </use>
+                    <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
             </button>
+            <div class="modal-reg">
+                <form class="modal-form">
+                    <p>Залиште свої дані, ми вам передзвонимо</p>
+                    <label class="">
+                        <input type="text" name="text"  class="modal-input" placeholder="Ім'я"/>
+                    </label>
+                    <label class="">
+                        <input type="tel" name="tel"  class="modal-input" placeholder="Телефон"/>
+                    </label>
+                    <label class="">
+                        <input type="email" name="email"  class="modal-input" placeholder="Пошта"/>
+                    </label>
+                    <button class="modal-form-btn hero-btn" type="submit">Відправити</button>
+                </form>
+            </div>   
         </div>
     </div>
     <script src="./js/modal.js"></script>
