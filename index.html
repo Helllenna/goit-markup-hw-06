@@ -394,9 +394,9 @@
                         </div>
                     </div>
                 </form>
-        </div>is-hidden
+        </div>
     </footer>
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="vector" width="11" height="11">
@@ -437,10 +437,15 @@
                         <p class="modal-label-text">Коментар</p>
                         <textarea name="user-comment" placeholder="Введіть текст" class="modal-form-comment modal-input"></textarea>
                     </label>
-                        <label class="modal-checkbox">
-                        <input type="checkbox" name="link" value="link" />
-                        <p class="modal-label-text">Погоджуюся з розсилкою та приймаю</p>
-                            <a href="" class="modal-link">Умови договору</a>
+                    <div class="modal-field">
+                        <input type="checkbox" name="policy" id="policy" class="modal-check hide"/>
+                        <label for="policy" class="check-text">
+                            <p class="modal-policy-text">Погоджуюся з розсилкою та приймаю</p>
+                            <!-- <svg class="modal-icon-check" width="16" height="15">
+                                <use href="./images/icons.svg#icon-check"></use>
+                            </svg> -->
+                        </label>
+                        <a href="" class="modal-link">Умови договору</a>
                     </div>
                     <button class="modal-form-btn hero-btn" type="submit">Відправити</button>
                 </form>
