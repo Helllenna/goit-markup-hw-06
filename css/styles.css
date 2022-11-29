@@ -734,6 +734,8 @@ border-color: var(--main-btn-color);
   border: 2px solid #212121;
   border-radius: 2px;
   margin-right: 7px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .input-wrapper {
