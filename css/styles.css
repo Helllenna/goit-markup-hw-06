@@ -712,6 +712,7 @@ border-color: var(--main-btn-color);
   gap: 7px;
   margin-bottom: 30px;
   margin-left: 13px;
+  margin-top: 10px;
 }
 
 .modal-policy-text {
